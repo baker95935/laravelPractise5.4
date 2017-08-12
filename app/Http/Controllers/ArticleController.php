@@ -41,9 +41,7 @@ class ArticleController extends Controller
         }
     }
     
-    /**
-    文章添加展示页
-    **/
+    //文章添加展示页
     public function create()
     {
         return view('article.create');
